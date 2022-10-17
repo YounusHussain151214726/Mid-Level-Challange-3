@@ -1,0 +1,111 @@
+:root {
+  /* Primarycolor */
+  --Pale-blue: hsl(225, 76%, 87%);
+  --Bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutralcolor */
+  --Very-pale-blue: hsl(231, 61%, 94%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  background-color: var(--Pale-blue);
+}
+
+html {
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.Container {
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 90%;
+}
+.Wraper {
+  border-radius: 0.8rem;
+  margin-bottom: 5rem;
+  margin: auto;
+  margin-top: 3rem;
+  width: 26%;
+  min-width: 24rem;
+  max-width: 27rem;
+  max-width: 500px;
+  min-width: 30rem;
+  background-color: white;
+  height: auto;
+}
+.backImg {
+  background-image: url("./images/illustration-hero.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+.content > h2 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+.content > p {
+  padding: 0 3rem;
+}
+
+.Wraper .annual{
+margin-left: .5rem;
+margin-right: .5rem;
+}
+.annual {
+  display: flex;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+background-color: var(--Very-pale-blue);
+}
+
+h4 {
+  margin-top: 0.8rem;
+}
+.annual img{
+  background-color: var(--Desaturated-blue);
+  border-radius: 48%;
+}
+
+.aContent > a {
+  position: relative;
+  left: 8.2rem;
+}
+.aContent > span {
+  position: relative;
+  left: 2.2rem;
+}
+
+.btn {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  width: 80%;
+  background-color: var(--Bright-blue);
+  color: white;
+  border-radius: 0.6rem;
+}
+
+.lastsp {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
